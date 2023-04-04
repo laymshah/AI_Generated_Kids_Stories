@@ -25,7 +25,7 @@ async function generateStory(prompt) {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer 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'
+            'Authorization': 'Bearer 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'
         },
         body: JSON.stringify({
             prompt: prompt,
@@ -50,7 +50,7 @@ async function generateImages(prompt) {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer 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'
+            'Authorization': 'Bearer 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'
         },
         body: JSON.stringify({
             prompt: prompt,
