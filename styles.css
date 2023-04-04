@@ -1,0 +1,59 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f0f8ff;
+    color: #2c3e50;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #e74c3c;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #e0e7ff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+input, select, button {
+    font-size: 1rem;
+    margin: 5px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#story-result, #images-result {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #d1f2eb;
+}
+
+img {
+    border-radius: 5px;
+}

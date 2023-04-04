@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Generated Kids Stories</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>AI Generated Kids Stories</h1>
+    <form id="story-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="">Select Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="1" required>
+
+        <label for="theme">Theme:</label>
+        <input type="text" id="theme" name="theme" required>
+
+        <label for="pages">Pages:</label>
+        <input type="number" id="pages" name="pages" min="1" required>
+
+        <label for="words">Words:</label>
+        <input type="number" id="words" name="words" min="1" required>
+
+        <button type="submit" id="generate-story">Generate Story</button>
+    </form>
+    <div id="story-result"></div>
+    <div id="images-result"></div>
+    <script src="scripts.js"></script>
+</body>
+</html>
